@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="INSERT_OR_UPDATE" apply_defaults="true" element="" table="x_942105_costima_0_ffp_clin">
+    <sys_id>6005a5d6faf647e6a685fcc6269e2d42</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_dictionary_x_942105_costima_0_ffp_clin_null</sys_update_name>
+    <active>true</active>
+    <attributes/>
+    <audit>false</audit>
+    <element/>
+    <internal_type>collection</internal_type>
+    <name>x_942105_costima_0_ffp_clin</name>
+    <read_only>false</read_only>
+    <text_index>false</text_index>
+  </sys_dictionary>
+</record_update>

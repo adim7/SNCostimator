@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="contract_type" table="x_942105_costima_0_proposal" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>ee1ef5f1dfb54cbd88571e9b9c330fbb</sys_id>
+      <element>contract_type</element>
+      <sys_update_name>sys_choice_x_942105_costima_0_proposal_contract_type</sys_update_name>
+      <name>x_942105_costima_0_proposal</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+      <sys_package display_value="x_942105_costima_0" source="0e535e682fbb8310f917308a6fa4e3fd">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+      <sys_name>contract_type</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>3fb0141dc5384cc5806648e7028a5066</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>contract_type</element>
+      <label>CPFF</label>
+      <value>cpff</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>19fd44bb97a34124968364955701ac82</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>contract_type</element>
+      <label>T&amp;M</label>
+      <value>tm</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>afd85347ed6e4ad6b648472aeb18fbaf</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>contract_type</element>
+      <label>FFP</label>
+      <value>ffp</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>
