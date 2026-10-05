@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="period_type" table="x_942105_costima_0_period" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>f97c529896ce4e38a3aaa0aab6a639ea</sys_id>
+      <element>period_type</element>
+      <sys_update_name>sys_choice_x_942105_costima_0_period_period_type</sys_update_name>
+      <name>x_942105_costima_0_period</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+      <sys_package display_value="x_942105_costima_0" source="0e535e682fbb8310f917308a6fa4e3fd">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+      <sys_name>period_type</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>19fab8a297244bf4835de8313b1f4a0d</sys_id>
+      <name>x_942105_costima_0_period</name>
+      <element>period_type</element>
+      <label>Base Year</label>
+      <value>base_year</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>600adb920ec948ad8923c60e3b85618e</sys_id>
+      <name>x_942105_costima_0_period</name>
+      <element>period_type</element>
+      <label>Option Year</label>
+      <value>option_year</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>
