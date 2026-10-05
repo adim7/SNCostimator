@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>58bd159cf30b49638e5ce4617a74d4d1</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_user_role_contains_58bd159cf30b49638e5ce4617a74d4d1</sys_update_name>
+    <contains name="x_942105_costima_0.viewer">8269ef5ba9aa4d47b254fdf5039f1dda</contains>
+    <role name="x_942105_costima_0.admin">4188c8456c1943baa0923c8ad4a21af0</role>
+  </sys_user_role_contains>
+</record_update>

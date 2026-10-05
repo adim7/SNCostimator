@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ec50d523bcb64cf2b01f192fdbe62f72</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_number_ec50d523bcb64cf2b01f192fdbe62f72</sys_update_name>
+    <category>x_942105_costima_0_proposal</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1</number>
+    <prefix>CST</prefix>
+  </sys_number>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="status" table="x_942105_costima_0_proposal" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>67c2caa792f64d20b3e69f280ec4cb4d</sys_id>
+      <element>status</element>
+      <sys_update_name>sys_choice_x_942105_costima_0_proposal_status</sys_update_name>
+      <name>x_942105_costima_0_proposal</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+      <sys_package display_value="x_942105_costima_0" source="0e535e682fbb8310f917308a6fa4e3fd">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+      <sys_name>status</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>016e72c656964c4883e6bca2cc5e4395</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>status</element>
+      <label>Draft</label>
+      <value>draft</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>894972714ddf4744bd7438a290f2a2ea</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>status</element>
+      <label>In Review</label>
+      <value>in_review</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>46ab45d63cd6424fa2e9988c4381bbf0</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>status</element>
+      <label>Approved</label>
+      <value>approved</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>aa7094a18b9743ec829d2cda86e4593e</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>status</element>
+      <label>Submitted</label>
+      <value>submitted</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>88f461d88a6e4ecb83a0db57b88293f2</sys_id>
+      <name>x_942105_costima_0_proposal</name>
+      <element>status</element>
+      <label>Archived</label>
+      <value>archived</value>
+      <sequence>5</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

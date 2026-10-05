@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8fdae5a8d86840d8990aed1d354f76c7</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_user_role_contains_8fdae5a8d86840d8990aed1d354f76c7</sys_update_name>
+    <contains name="x_942105_costima_0.approver">e7bdb6dfed584d9786c966ef5dfbd7c1</contains>
+    <role name="x_942105_costima_0.admin">4188c8456c1943baa0923c8ad4a21af0</role>
+  </sys_user_role_contains>
+</record_update>
