@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="pool_category" table="x_942105_costima_0_ind_pool" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>9abee76097a745479ca4c66b80e48e64</sys_id>
+      <element>pool_category</element>
+      <sys_update_name>sys_choice_x_942105_costima_0_ind_pool_pool_category</sys_update_name>
+      <name>x_942105_costima_0_ind_pool</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+      <sys_package display_value="x_942105_costima_0" source="0e535e682fbb8310f917308a6fa4e3fd">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+      <sys_name>pool_category</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>19bd27c26c29448ea42f85805163b1ae</sys_id>
+      <name>x_942105_costima_0_ind_pool</name>
+      <element>pool_category</element>
+      <label>Labor Burden</label>
+      <value>labor_burden</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>59100921dbea415e805b553b1d78dc89</sys_id>
+      <name>x_942105_costima_0_ind_pool</name>
+      <element>pool_category</element>
+      <label>Material Burden</label>
+      <value>material_burden</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>a0bfcf4cdcdb4cbfb39889065432e946</sys_id>
+      <name>x_942105_costima_0_ind_pool</name>
+      <element>pool_category</element>
+      <label>Subcontract Burden</label>
+      <value>subcontract_burden</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

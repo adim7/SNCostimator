@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="applies_to_base" table="x_942105_costima_0_ind_pool" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>3c0903a6be5d44cb9adbc57e52256932</sys_id>
+      <element>applies_to_base</element>
+      <sys_update_name>sys_choice_x_942105_costima_0_ind_pool_applies_to_base</sys_update_name>
+      <name>x_942105_costima_0_ind_pool</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+      <sys_package display_value="x_942105_costima_0" source="0e535e682fbb8310f917308a6fa4e3fd">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+      <sys_name>applies_to_base</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>e5cf6fe0d52747e290f7678581d8b517</sys_id>
+      <name>x_942105_costima_0_ind_pool</name>
+      <element>applies_to_base</element>
+      <label>Total Direct Labor</label>
+      <value>total_direct_labor</value>
+      <sequence>1</sequence>
+      <dependent_value>labor_burden</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>849394e77ff34cd98fb38b13cfd6549f</sys_id>
+      <name>x_942105_costima_0_ind_pool</name>
+      <element>applies_to_base</element>
+      <label>Total Direct Material</label>
+      <value>total_direct_material</value>
+      <sequence>2</sequence>
+      <dependent_value>material_burden</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>db6e6bef15824883a9d122ef04804fd7</sys_id>
+      <name>x_942105_costima_0_ind_pool</name>
+      <element>applies_to_base</element>
+      <label>Total Subcontract</label>
+      <value>total_subcontract</value>
+      <sequence>3</sequence>
+      <dependent_value>subcontract_burden</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>
