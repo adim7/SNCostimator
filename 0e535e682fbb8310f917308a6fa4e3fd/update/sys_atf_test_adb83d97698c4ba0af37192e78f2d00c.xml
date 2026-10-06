@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>adb83d97698c4ba0af37192e78f2d00c</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_test_adb83d97698c4ba0af37192e78f2d00c</sys_update_name>
+    <active>true</active>
+    <description>Validates that the Validate T&amp;M Contract Type Match business rule rejects inserting a T&amp;M Rate record when the proposal contract_type is ffp. Inserts a proposal with contract_type=ffp, then attempts to insert a T&amp;M rate and asserts the insert is rejected.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Contract Type Mismatch - T&amp;M on FFP</name>
+  </sys_atf_test>
+</record_update>

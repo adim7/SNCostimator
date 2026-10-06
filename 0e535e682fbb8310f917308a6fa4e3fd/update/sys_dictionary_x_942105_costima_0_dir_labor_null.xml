@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="INSERT_OR_UPDATE" apply_defaults="true" element="" table="x_942105_costima_0_dir_labor">
+    <sys_id>a988b22da502406abdaa9c98086a95fd</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_dictionary_x_942105_costima_0_dir_labor_null</sys_update_name>
+    <active>true</active>
+    <attributes>enforce_dot_walk_cross_scope_access=true</attributes>
+    <audit>false</audit>
+    <element/>
+    <internal_type>collection</internal_type>
+    <name>x_942105_costima_0_dir_labor</name>
+    <read_only>false</read_only>
+    <text_index>false</text_index>
+  </sys_dictionary>
+</record_update>
