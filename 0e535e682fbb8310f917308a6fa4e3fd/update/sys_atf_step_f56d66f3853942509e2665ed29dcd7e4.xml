@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>f56d66f3853942509e2665ed29dcd7e4</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_942105_costima_0_proposal</table>
+    <test>678abeb4998f48c28231b99cc5da162a</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_f56d66f3853942509e2665ed29dcd7e4</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=f56d66f3853942509e2665ed29dcd7e4"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>91a7ccd722894645be65a32246b2a762</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>f56d66f3853942509e2665ed29dcd7e4</document_key>
+    <value>x_942105_costima_0_proposal</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_91a7ccd722894645be65a32246b2a762</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>32a7e97cffd546788ab964851459bb5f</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>f56d66f3853942509e2665ed29dcd7e4</document_key>
+    <value>record_successfully_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_32a7e97cffd546788ab964851459bb5f</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0dbba13d2c5145b0ab7c4b664ad34629</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>f56d66f3853942509e2665ed29dcd7e4</document_key>
+    <value>contract_type=ffp^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_0dbba13d2c5145b0ab7c4b664ad34629</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>e3bfdfd04fea430c84265d480c9ba131</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>f56d66f3853942509e2665ed29dcd7e4</document_key>
+    <value>0</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_e3bfdfd04fea430c84265d480c9ba131</sys_update_name>
+  </sys_variable_value>
+</record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ef987f4d38404ddc88dac760fb899946</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Update</display_name>
+    <notes/>
+    <order>5</order>
+    <step_config>17a72288df60220062fe6c7a4df26397</step_config>
+    <table>x_942105_costima_0_proposal</table>
+    <test>8057dca1edf149339407186030487849</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_ef987f4d38404ddc88dac760fb899946</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=ef987f4d38404ddc88dac760fb899946"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>3d1ed7ac67a2430eb3065bb7c59b2565</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ef987f4d38404ddc88dac760fb899946</document_key>
+    <value>record_successfully_updated</value>
+    <variable>334b7bb7675003007ba405225685ef72</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_3d1ed7ac67a2430eb3065bb7c59b2565</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>3381d35481f74dee92b2c65faf1fe47a</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ef987f4d38404ddc88dac760fb899946</document_key>
+    <value>0</value>
+    <variable>46dbcb535320220002c6435723dc3409</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_3381d35481f74dee92b2c65faf1fe47a</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fc055bd44c184057a2617b4bfe4aae89</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ef987f4d38404ddc88dac760fb899946</document_key>
+    <value>{{step['136525f308fe4a0ea9ca40f9371f0f60'].record_id}}</value>
+    <variable>501c8f535320220002c6435723dc34da</variable>
+    <order>300</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_fc055bd44c184057a2617b4bfe4aae89</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>2cc32407d7c749a6836f74683cb32642</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ef987f4d38404ddc88dac760fb899946</document_key>
+    <value>x_942105_costima_0_proposal</value>
+    <variable>53fb0f535320220002c6435723dc34ec</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_2cc32407d7c749a6836f74683cb32642</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>122a3bdc40ab4a40ab1857924bd2a6c0</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ef987f4d38404ddc88dac760fb899946</document_key>
+    <value>contract_type=tm^EQ</value>
+    <variable>bc4c43935320220002c6435723dc34a2</variable>
+    <order>400</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_122a3bdc40ab4a40ab1857924bd2a6c0</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=ef987f4d38404ddc88dac760fb899946"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>cfbeb45579d847fab3b85898b683c2f1</sys_id>
+    <field>record_id</field>
+    <id>ef987f4d38404ddc88dac760fb899946</id>
+    <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+    <value>{{step['136525f308fe4a0ea9ca40f9371f0f60'].record_id}}</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_cfbeb45579d847fab3b85898b683c2f1</sys_update_name>
+  </sys_element_mapping>
+</record_update>

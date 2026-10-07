@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>928dac0eb8f64bb781954493a6f92619</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_test_928dac0eb8f64bb781954493a6f92619</sys_update_name>
+    <active>true</active>
+    <description>Validates that the Lock Contract Type business rule blocks a non-admin user from changing contract_type when type-specific cost data (CPFF fee) exists. Creates a proposal with contract_type=cpff, adds a CPFF fee record, then attempts to change contract_type to tm as a non-admin user and asserts the update is rejected.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Contract Type Lock - Non-Admin Blocked</name>
+  </sys_atf_test>
+</record_update>
