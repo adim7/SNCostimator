@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="DELETE" apply_defaults="true">
+    <sys_id>95a8a6ea14604d1cb154b41325a41736</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Validation</display_name>
+    <notes/>
+    <order>6</order>
+    <step_config>1f39a288df60220062fe6c7a4df2639d</step_config>
+    <table>x_942105_costima_0_proposal</table>
+    <test>fae6fb6a6df84734af837ee6958fd318</test>
+    <timeout>1970-01-01 00:00:05</timeout>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_95a8a6ea14604d1cb154b41325a41736</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="DELETE" query="document_key=95a8a6ea14604d1cb154b41325a41736"/>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>ed3b8894cd67472fadaddd0a973ded34</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>{{step['06e16d259fb24494a7e7200fa8367c61'].record_id}}</value>
+    <variable>52ed1e5b5360220002c6435723dc3421</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ed3b8894cd67472fadaddd0a973ded34</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>ae86256c3eb945bebb2760f128fa0d45</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>record_validated</value>
+    <variable>67400008676003007ba405225685efa4</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ae86256c3eb945bebb2760f128fa0d45</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>ac1aa80cc6864f5bb26ea6a5e46146c1</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>x_942105_costima_0_proposal</value>
+    <variable>6aad5a575360220002c6435723dc34b0</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ac1aa80cc6864f5bb26ea6a5e46146c1</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>709e24b927a44643a354db10be53c44c</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>1</value>
+    <variable>cbddfa135320220002c6435723dc3415</variable>
+    <order>10</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_709e24b927a44643a354db10be53c44c</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>7c136c5398774a199dfabd3a9870278c</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>contract_type=tm</value>
+    <variable>ff6e125353a0220002c6435723dc3442</variable>
+    <order>300</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_7c136c5398774a199dfabd3a9870278c</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="DELETE" query="id=95a8a6ea14604d1cb154b41325a41736"/>
+  <sys_element_mapping action="DELETE" apply_defaults="true">
+    <sys_id>b36e6f7b072a4af2b6ed5704e20d339a</sys_id>
+    <field>record_id</field>
+    <id>95a8a6ea14604d1cb154b41325a41736</id>
+    <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+    <value>{{step['06e16d259fb24494a7e7200fa8367c61'].record_id}}</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_b36e6f7b072a4af2b6ed5704e20d339a</sys_update_name>
+  </sys_element_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_atf_step_95a8a6ea14604d1cb154b41325a41736</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>95a8a6ea14604d1cb154b41325a41736</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Validation</display_name>
+    <notes/>
+    <order>6</order>
+    <step_config>1f39a288df60220062fe6c7a4df2639d</step_config>
+    <table>x_942105_costima_0_proposal</table>
+    <test>fae6fb6a6df84734af837ee6958fd318</test>
+    <timeout>1970-01-01 00:00:05</timeout>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_95a8a6ea14604d1cb154b41325a41736</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=95a8a6ea14604d1cb154b41325a41736"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ed3b8894cd67472fadaddd0a973ded34</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>{{step['06e16d259fb24494a7e7200fa8367c61'].record_id}}</value>
+    <variable>52ed1e5b5360220002c6435723dc3421</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ed3b8894cd67472fadaddd0a973ded34</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ae86256c3eb945bebb2760f128fa0d45</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>record_validated</value>
+    <variable>67400008676003007ba405225685efa4</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ae86256c3eb945bebb2760f128fa0d45</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ac1aa80cc6864f5bb26ea6a5e46146c1</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>x_942105_costima_0_proposal</value>
+    <variable>6aad5a575360220002c6435723dc34b0</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ac1aa80cc6864f5bb26ea6a5e46146c1</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>709e24b927a44643a354db10be53c44c</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>1</value>
+    <variable>cbddfa135320220002c6435723dc3415</variable>
+    <order>10</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_709e24b927a44643a354db10be53c44c</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>7c136c5398774a199dfabd3a9870278c</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>95a8a6ea14604d1cb154b41325a41736</document_key>
+    <value>contract_type=tm</value>
+    <variable>ff6e125353a0220002c6435723dc3442</variable>
+    <order>300</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_7c136c5398774a199dfabd3a9870278c</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=95a8a6ea14604d1cb154b41325a41736"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b36e6f7b072a4af2b6ed5704e20d339a</sys_id>
+    <field>record_id</field>
+    <id>95a8a6ea14604d1cb154b41325a41736</id>
+    <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+    <value>{{step['06e16d259fb24494a7e7200fa8367c61'].record_id}}</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_b36e6f7b072a4af2b6ed5704e20d339a</sys_update_name>
+  </sys_element_mapping>
+</record_update>]]></payload>
+        <payload_hash>682076106</payload_hash>
+        <record_name>Record Validation</record_name>
+        <reverted_from/>
+        <source>c138d0992fb7c710f917308a6fa4e322</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 22:06:30</sys_created_on>
+        <sys_id>f55858992fb7c710f917308a6fa4e3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1134103820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 22:06:30</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>b558589953b7c7108f84186e6bb1d0db</update_guid>
+        <update_guid_history>b558589953b7c7108f84186e6bb1d0db:682076106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:02:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>420fbae7e5a741cc9274149c98fb4084</sys_id>
+        <sys_metadata>95a8a6ea14604d1cb154b41325a41736</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_atf_step_95a8a6ea14604d1cb154b41325a41736</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_95a8a6ea14604d1cb154b41325a41736">f55858992fb7c710f917308a6fa4e3dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:02:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

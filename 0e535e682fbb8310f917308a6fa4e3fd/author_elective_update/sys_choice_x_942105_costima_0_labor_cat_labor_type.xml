@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="labor_type" table="x_942105_costima_0_labor_cat" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>labor_type</element>
+            <name>x_942105_costima_0_labor_cat</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 00:52:55</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>labor_type</sys_name>
+            <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+            <sys_update_name>sys_choice_x_942105_costima_0_labor_cat_labor_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 00:52:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>labor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Direct</label>
+            <language>en</language>
+            <name>x_942105_costima_0_labor_cat</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:27</sys_updated_on>
+            <value>direct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>labor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indirect</label>
+            <language>en</language>
+            <name>x_942105_costima_0_labor_cat</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:28</sys_updated_on>
+            <value>indirect</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>labor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subcontract</label>
+            <language>en</language>
+            <name>x_942105_costima_0_labor_cat</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:28</sys_updated_on>
+            <value>subcontract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>labor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consultant</label>
+            <language>en</language>
+            <name>x_942105_costima_0_labor_cat</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:28</sys_updated_on>
+            <value>consultant</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

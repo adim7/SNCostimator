@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="04ca38cf973d420589da047375aec93f" label="CPFF Fee Structure" name="x_942105_costima_0_cpff_fee" type="collection">
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element label="Fee Percentage" name="fee_percentage" type="decimal"/>
+        <element display="true" label="Fee Description" mandatory="true" max_length="200" name="fee_description" type="string"/>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

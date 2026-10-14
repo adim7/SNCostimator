@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1f90cb514b714877a4c2d3bf99698532" label="ODC Item" name="x_942105_costima_0_odc_item" type="collection">
+        <element display="true" label="Cost Description" mandatory="true" max_length="500" name="cost_description" type="string"/>
+        <element label="ODC Category" name="odc_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Training" sequence="5" value="training"/>
+                <element inactive_on_update="false" label="Special Test Equipment" sequence="3" value="special_test_equipment"/>
+                <element inactive_on_update="false" label="Equipment" sequence="6" value="equipment"/>
+                <element inactive_on_update="false" label="Software Licenses" sequence="4" value="software_licenses"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+                <element inactive_on_update="false" label="Computers" sequence="2" value="computers"/>
+                <element inactive_on_update="false" label="Travel" sequence="1" value="travel"/>
+            </choice>
+        </element>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

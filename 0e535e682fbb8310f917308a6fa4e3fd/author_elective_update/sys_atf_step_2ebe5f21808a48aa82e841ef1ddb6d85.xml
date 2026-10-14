@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="DELETE" apply_defaults="true">
+    <sys_id>2ebe5f21808a48aa82e841ef1ddb6d85</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>2</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_942105_costima_0_ffp_clin</table>
+    <test>a75df19c5d0a4c8fa3812806279fe0a9</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_2ebe5f21808a48aa82e841ef1ddb6d85</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="DELETE" query="document_key=2ebe5f21808a48aa82e841ef1ddb6d85"/>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>c955cbe04202455f8ffb662cd961b759</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>x_942105_costima_0_ffp_clin</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_c955cbe04202455f8ffb662cd961b759</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>6e79e9db0aa34f4cbe4ce33098f3ef70</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>record_not_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_6e79e9db0aa34f4cbe4ce33098f3ef70</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>61b1af53ad734eab8c6b169cdb925dee</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>proposal={{step['b2eb4b72efdc46789314730a714b2d49'].record_id}}^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_61b1af53ad734eab8c6b169cdb925dee</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>858dff19c4014e7b926fd28a5dcc7780</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>0</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_858dff19c4014e7b926fd28a5dcc7780</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="DELETE" query="id=2ebe5f21808a48aa82e841ef1ddb6d85"/>
+  <sys_element_mapping action="DELETE" apply_defaults="true">
+    <sys_id>eb3ca5f35e2740f6981b2f4f4efede82</sys_id>
+    <field>field_values</field>
+    <id>2ebe5f21808a48aa82e841ef1ddb6d85</id>
+    <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+    <value>proposal={{step['b2eb4b72efdc46789314730a714b2d49'].record_id}}^EQ</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_eb3ca5f35e2740f6981b2f4f4efede82</sys_update_name>
+  </sys_element_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_atf_step_2ebe5f21808a48aa82e841ef1ddb6d85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>2ebe5f21808a48aa82e841ef1ddb6d85</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>2</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_942105_costima_0_ffp_clin</table>
+    <test>a75df19c5d0a4c8fa3812806279fe0a9</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_2ebe5f21808a48aa82e841ef1ddb6d85</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=2ebe5f21808a48aa82e841ef1ddb6d85"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>c955cbe04202455f8ffb662cd961b759</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>x_942105_costima_0_ffp_clin</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_c955cbe04202455f8ffb662cd961b759</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>6e79e9db0aa34f4cbe4ce33098f3ef70</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>record_not_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_6e79e9db0aa34f4cbe4ce33098f3ef70</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>61b1af53ad734eab8c6b169cdb925dee</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>proposal={{step['b2eb4b72efdc46789314730a714b2d49'].record_id}}^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_61b1af53ad734eab8c6b169cdb925dee</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>858dff19c4014e7b926fd28a5dcc7780</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2ebe5f21808a48aa82e841ef1ddb6d85</document_key>
+    <value>0</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_858dff19c4014e7b926fd28a5dcc7780</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=2ebe5f21808a48aa82e841ef1ddb6d85"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>eb3ca5f35e2740f6981b2f4f4efede82</sys_id>
+    <field>field_values</field>
+    <id>2ebe5f21808a48aa82e841ef1ddb6d85</id>
+    <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+    <value>proposal={{step['b2eb4b72efdc46789314730a714b2d49'].record_id}}^EQ</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_eb3ca5f35e2740f6981b2f4f4efede82</sys_update_name>
+  </sys_element_mapping>
+</record_update>]]></payload>
+        <payload_hash>-90201377</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>c138d0992fb7c710f917308a6fa4e322</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 22:06:15</sys_created_on>
+        <sys_id>1e4818992fb7c710f917308a6fa4e344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a11340cb200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 22:06:15</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>da481899b6b7c710eee5956685f96543</update_guid>
+        <update_guid_history>da481899b6b7c710eee5956685f96543:-90201377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:02:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>31403b9fdd5a4cd89894c97fa7946739</sys_id>
+        <sys_metadata>2ebe5f21808a48aa82e841ef1ddb6d85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_atf_step_2ebe5f21808a48aa82e841ef1ddb6d85</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_2ebe5f21808a48aa82e841ef1ddb6d85">1e4818992fb7c710f917308a6fa4e344</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:02:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="DELETE" apply_defaults="true">
+    <sys_id>5aaa0d32e0da4ffda43292ca36990167</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Create a User</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+    <table/>
+    <test>13b84503a826434f954a43906ff33c15</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_5aaa0d32e0da4ffda43292ca36990167</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="DELETE" query="document_key=5aaa0d32e0da4ffda43292ca36990167"/>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>ec2b5441551e47238a24a447e15ca993</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>EQ</value>
+    <variable>1778a7480f20101091d0f00c97767e03</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ec2b5441551e47238a24a447e15ca993</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>520487fe9f474c6894bf2960a15882b1</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>Lock</value>
+    <variable>1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_520487fe9f474c6894bf2960a15882b1</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>e4f727de5b884f8e84b2de11bc4bfcfa</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>NonAdmin</value>
+    <variable>6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_e4f727de5b884f8e84b2de11bc4bfcfa</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>56cce950e16c448d9b8281c8e56cfcbe</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>x_942105_costima_0.analyst</value>
+    <variable>8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_56cce950e16c448d9b8281c8e56cfcbe</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>856ad18475774d6581d7c1a9a1f22c91</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>0</value>
+    <variable>98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_856ad18475774d6581d7c1a9a1f22c91</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>817f786b4f1c4c2da221fb7ef7ab96a9</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value/>
+    <variable>b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_817f786b4f1c4c2da221fb7ef7ab96a9</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>d3490e8258724753a6d304a366a7fb81</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>sys_user</value>
+    <variable>ff06ab840f20101091d0f00c97767e6d</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_d3490e8258724753a6d304a366a7fb81</sys_update_name>
+  </sys_variable_value>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_atf_step_5aaa0d32e0da4ffda43292ca36990167</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>5aaa0d32e0da4ffda43292ca36990167</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Create a User</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+    <table/>
+    <test>13b84503a826434f954a43906ff33c15</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_5aaa0d32e0da4ffda43292ca36990167</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=5aaa0d32e0da4ffda43292ca36990167"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ec2b5441551e47238a24a447e15ca993</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>EQ</value>
+    <variable>1778a7480f20101091d0f00c97767e03</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_ec2b5441551e47238a24a447e15ca993</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>520487fe9f474c6894bf2960a15882b1</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>Lock</value>
+    <variable>1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_520487fe9f474c6894bf2960a15882b1</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>e4f727de5b884f8e84b2de11bc4bfcfa</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>NonAdmin</value>
+    <variable>6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_e4f727de5b884f8e84b2de11bc4bfcfa</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>56cce950e16c448d9b8281c8e56cfcbe</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>x_942105_costima_0.analyst</value>
+    <variable>8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_56cce950e16c448d9b8281c8e56cfcbe</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>856ad18475774d6581d7c1a9a1f22c91</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>0</value>
+    <variable>98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_856ad18475774d6581d7c1a9a1f22c91</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>817f786b4f1c4c2da221fb7ef7ab96a9</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value/>
+    <variable>b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_817f786b4f1c4c2da221fb7ef7ab96a9</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d3490e8258724753a6d304a366a7fb81</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>5aaa0d32e0da4ffda43292ca36990167</document_key>
+    <value>sys_user</value>
+    <variable>ff06ab840f20101091d0f00c97767e6d</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_d3490e8258724753a6d304a366a7fb81</sys_update_name>
+  </sys_variable_value>
+</record_update>]]></payload>
+        <payload_hash>-289285417</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>c138d0992fb7c710f917308a6fa4e322</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 22:06:27</sys_created_on>
+        <sys_id>915858992fb7c710f917308a6fa4e369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a11340f9410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 22:06:27</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4158589987b7c710da2152fe46cb0b68</update_guid>
+        <update_guid_history>4158589987b7c710da2152fe46cb0b68:-289285417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:02:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7932d34dcaa2497ea549e0d8564e5c79</sys_id>
+        <sys_metadata>5aaa0d32e0da4ffda43292ca36990167</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_atf_step_5aaa0d32e0da4ffda43292ca36990167</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_5aaa0d32e0da4ffda43292ca36990167">915858992fb7c710f917308a6fa4e369</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:02:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

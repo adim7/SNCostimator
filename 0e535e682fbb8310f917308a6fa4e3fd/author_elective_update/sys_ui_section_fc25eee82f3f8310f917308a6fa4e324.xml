@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="fc25eee82f3f8310f917308a6fa4e324" sys_domain="global" table="x_942105_costima_0_proposal" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_942105_costima_0_proposal</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 00:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc25eee82f3f8310f917308a6fa4e324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_942105_costima_0_proposal</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+            <sys_update_name>sys_ui_section_fc25eee82f3f8310f917308a6fa4e324</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 00:26:12</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_ui_section_fc25eee82f3f8310f917308a6fa4e324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="fc25eee82f3f8310f917308a6fa4e324" sys_domain="global" table="x_942105_costima_0_proposal" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_942105_costima_0_proposal</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-05 00:26:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fc25eee82f3f8310f917308a6fa4e324</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_942105_costima_0_proposal</sys_name><sys_overrides/><sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package><sys_policy/><sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope><sys_update_name>sys_ui_section_fc25eee82f3f8310f917308a6fa4e324</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-05 00:26:12</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>494353684</payload_hash>
+        <record_name>Proposal</record_name>
+        <reverted_from/>
+        <source>394162242f3f8310f917308a6fa4e364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 00:26:13</sys_created_on>
+        <sys_id>4525eee82f3f8310f917308a6fa4e32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a10974383d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 00:26:13</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0525eee8563f83100d5ffea5c1b2132c</update_guid>
+        <update_guid_history>0525eee8563f83100d5ffea5c1b2132c:494353684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-08 22:43:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0f56c372f9d44d0481620460a0656d89</sys_id>
+        <sys_metadata>fc25eee82f3f8310f917308a6fa4e324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_942105_costima_0_proposal</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent display_value="Proposal">71ff3d471dd846e293729b94eba415fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_ui_section_fc25eee82f3f8310f917308a6fa4e324</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_fc25eee82f3f8310f917308a6fa4e324">4525eee82f3f8310f917308a6fa4e32c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 22:43:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

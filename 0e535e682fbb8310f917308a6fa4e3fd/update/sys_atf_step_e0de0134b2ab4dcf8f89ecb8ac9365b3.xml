@@ -1,69 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>e0de0134b2ab4dcf8f89ecb8ac9365b3</sys_id>
-    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Record Insert</display_name>
-    <notes/>
-    <order>3</order>
-    <step_config>14872288df60220062fe6c7a4df26319</step_config>
-    <table>x_942105_costima_0_cpff_fee</table>
-    <test>8057dca1edf149339407186030487849</test>
-    <timeout/>
-    <warning_message/>
-    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <sys_update_name>sys_atf_step_e0de0134b2ab4dcf8f89ecb8ac9365b3</sys_update_name>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=e0de0134b2ab4dcf8f89ecb8ac9365b3"/>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>557ffaf45a97422680982a0155bea5a9</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
-    <value>x_942105_costima_0_cpff_fee</value>
-    <variable>90144b535320220002c6435723dc3488</variable>
-    <order>200</order>
-    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <sys_update_name>sys_variable_value_557ffaf45a97422680982a0155bea5a9</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>102b64552cc84ffc9b2095af3c8d908b</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
-    <value>record_successfully_inserted</value>
-    <variable>9024a37f671003007ba405225685efe5</variable>
-    <order>100</order>
-    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <sys_update_name>sys_variable_value_102b64552cc84ffc9b2095af3c8d908b</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>7701d9bd035741d6a8379c402f44eb10</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
-    <value>proposal={{step['136525f308fe4a0ea9ca40f9371f0f60'].record_id}}^fee_description=Test CPFF Fee^EQ</value>
-    <variable>dd54cf535320220002c6435723dc34fd</variable>
-    <order>400</order>
-    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <sys_update_name>sys_variable_value_7701d9bd035741d6a8379c402f44eb10</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>d56dff21b92a4c399699df48ececa3f4</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
-    <value>0</value>
-    <variable>e6e3c7535320220002c6435723dc3496</variable>
-    <order>100</order>
-    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <sys_update_name>sys_variable_value_d56dff21b92a4c399699df48ececa3f4</sys_update_name>
-  </sys_variable_value>
-  <sys_element_mapping action="delete_multiple" query="id=e0de0134b2ab4dcf8f89ecb8ac9365b3"/>
-  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>495d2d47a43d4a7bb281960d5c30350c</sys_id>
-    <field>field_values</field>
-    <id>e0de0134b2ab4dcf8f89ecb8ac9365b3</id>
-    <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
-    <value>proposal={{step['136525f308fe4a0ea9ca40f9371f0f60'].record_id}}^fee_description=Test CPFF Fee^EQ</value>
-    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
-    <sys_update_name>sys_element_mapping_495d2d47a43d4a7bb281960d5c30350c</sys_update_name>
-  </sys_element_mapping>
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 16:04:51</sys_created_on>
+        <sys_id>e0de0134b2ab4dcf8f89ecb8ac9365b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_update_name>sys_atf_step_e0de0134b2ab4dcf8f89ecb8ac9365b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 16:04:51</sys_updated_on>
+        <table>x_942105_costima_0_cpff_fee</table>
+        <test display_value="Contract Type Lock - Admin Allowed With Warning">8057dca1edf149339407186030487849</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e0de0134b2ab4dcf8f89ecb8ac9365b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:04:44</sys_created_on>
+        <sys_id>102b64552cc84ffc9b2095af3c8d908b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 16:04:44</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:04:44</sys_created_on>
+        <sys_id>557ffaf45a97422680982a0155bea5a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 16:04:44</sys_updated_on>
+        <value>x_942105_costima_0_cpff_fee</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:04:44</sys_created_on>
+        <sys_id>7701d9bd035741d6a8379c402f44eb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 16:04:44</sys_updated_on>
+        <value>proposal={{step['136525f308fe4a0ea9ca40f9371f0f60'].record_id}}^fee_description=Test CPFF Fee^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0de0134b2ab4dcf8f89ecb8ac9365b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:04:44</sys_created_on>
+        <sys_id>d56dff21b92a4c399699df48ececa3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 16:04:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0de0134b2ab4dcf8f89ecb8ac9365b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e0de0134b2ab4dcf8f89ecb8ac9365b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 16:04:44</sys_created_on>
+        <sys_id>495d2d47a43d4a7bb281960d5c30350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 16:04:44</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>proposal={{step['136525f308fe4a0ea9ca40f9371f0f60'].record_id}}^fee_description=Test CPFF Fee^EQ</value>
+    </sys_element_mapping>
 </record_update>

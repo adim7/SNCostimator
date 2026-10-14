@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="DELETE" apply_defaults="true">
+    <sys_id>b2eb4b72efdc46789314730a714b2d49</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_942105_costima_0_proposal</table>
+    <test>a75df19c5d0a4c8fa3812806279fe0a9</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_b2eb4b72efdc46789314730a714b2d49</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="DELETE" query="document_key=b2eb4b72efdc46789314730a714b2d49"/>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>10657be0771e405a917435e46c9cd969</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>x_942105_costima_0_proposal</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_10657be0771e405a917435e46c9cd969</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>253a0eedbcdd4c8bb7fa47e1a6aaa4b7</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>record_successfully_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_253a0eedbcdd4c8bb7fa47e1a6aaa4b7</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>85daccf90a1548fc885e2c9ba490ae98</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>contract_type=cpff^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_85daccf90a1548fc885e2c9ba490ae98</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>2560544ceb1f425cb66755a7ddd0f621</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>0</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_2560544ceb1f425cb66755a7ddd0f621</sys_update_name>
+  </sys_variable_value>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_atf_step_b2eb4b72efdc46789314730a714b2d49</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b2eb4b72efdc46789314730a714b2d49</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_942105_costima_0_proposal</table>
+    <test>a75df19c5d0a4c8fa3812806279fe0a9</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_b2eb4b72efdc46789314730a714b2d49</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=b2eb4b72efdc46789314730a714b2d49"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>10657be0771e405a917435e46c9cd969</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>x_942105_costima_0_proposal</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_10657be0771e405a917435e46c9cd969</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>253a0eedbcdd4c8bb7fa47e1a6aaa4b7</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>record_successfully_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_253a0eedbcdd4c8bb7fa47e1a6aaa4b7</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>85daccf90a1548fc885e2c9ba490ae98</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>contract_type=cpff^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_85daccf90a1548fc885e2c9ba490ae98</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>2560544ceb1f425cb66755a7ddd0f621</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>b2eb4b72efdc46789314730a714b2d49</document_key>
+    <value>0</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_2560544ceb1f425cb66755a7ddd0f621</sys_update_name>
+  </sys_variable_value>
+</record_update>]]></payload>
+        <payload_hash>-902236215</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>c138d0992fb7c710f917308a6fa4e322</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 22:06:35</sys_created_on>
+        <sys_id>1b58d8992fb7c710f917308a6fa4e301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a11341191b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 22:06:35</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>d758d8997fb7c710ae865a8e41937000</update_guid>
+        <update_guid_history>d758d8997fb7c710ae865a8e41937000:-902236215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:02:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>63f7f7a011c84772b7c21c8b47dae7e4</sys_id>
+        <sys_metadata>b2eb4b72efdc46789314730a714b2d49</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_atf_step_b2eb4b72efdc46789314730a714b2d49</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_b2eb4b72efdc46789314730a714b2d49">1b58d8992fb7c710f917308a6fa4e301</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:02:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

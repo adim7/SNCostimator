@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="731c4aa52f738b10f917308a6fa4e32b" sys_domain="global" table="x_942105_costima_0_dir_mat" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_942105_costima_0_dir_mat</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 01:10:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>731c4aa52f738b10f917308a6fa4e32b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_942105_costima_0_dir_mat</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+            <sys_update_name>sys_ui_section_731c4aa52f738b10f917308a6fa4e32b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 01:10:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_ui_section_731c4aa52f738b10f917308a6fa4e32b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="731c4aa52f738b10f917308a6fa4e32b" sys_domain="global" table="x_942105_costima_0_dir_mat" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_942105_costima_0_dir_mat</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 01:10:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>731c4aa52f738b10f917308a6fa4e32b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_942105_costima_0_dir_mat</sys_name><sys_overrides/><sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package><sys_policy/><sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope><sys_update_name>sys_ui_section_731c4aa52f738b10f917308a6fa4e32b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 01:10:50</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1163037994</payload_hash>
+        <record_name>Direct Material Line</record_name>
+        <reverted_from/>
+        <source>3c1064992ff7c710f917308a6fa4e368</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-08 01:10:52</sys_created_on>
+        <sys_id>982c4aa52f738b10f917308a6fa4e331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a119102ae50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 01:10:52</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>582c4aa50f738b106c7687a99c8e0e31</update_guid>
+        <update_guid_history>582c4aa50f738b106c7687a99c8e0e31:-1163037994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-08 22:44:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>9d64e1032704428f93e7f60bd5ef93d9</sys_id>
+        <sys_metadata>731c4aa52f738b10f917308a6fa4e32b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_942105_costima_0_dir_mat</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent display_value="Direct Material Line">48d3a35bd67c4383bd7b5ffe32755dac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_ui_section_731c4aa52f738b10f917308a6fa4e32b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_731c4aa52f738b10f917308a6fa4e32b">982c4aa52f738b10f917308a6fa4e331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 22:44:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

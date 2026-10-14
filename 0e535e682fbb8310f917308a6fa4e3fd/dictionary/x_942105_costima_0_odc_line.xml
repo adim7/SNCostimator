@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5b21b6592b644ea49fba3d07d2c188ef" label="ODC Line" name="x_942105_costima_0_odc_line" type="collection">
+        <element label="ODC Item" mandatory="true" name="odc_item" reference="x_942105_costima_0_odc_item" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Period" mandatory="true" name="period" reference="x_942105_costima_0_period" reference_cascade_rule="cascade" type="reference"/>
+        <element attributes="scale=2" default="0" label="Cost" name="cost" type="decimal"/>
+        <index name="index">
+            <element name="odc_item"/>
+        </index>
+        <index name="index2">
+            <element name="period"/>
+        </index>
+    </element>
+</database>

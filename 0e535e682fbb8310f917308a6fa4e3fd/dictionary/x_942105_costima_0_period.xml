@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7fd92fb2794f434097a22437b87f5a35" label="Period" name="x_942105_costima_0_period" type="collection">
+        <element display="true" label="Period Name" mandatory="true" max_length="100" name="period_name" type="string"/>
+        <element label="Period Sequence" name="period_sequence" type="integer"/>
+        <element label="End Date" name="end_date" type="glide_date"/>
+        <element label="Period Type" mandatory="true" name="period_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Option Year" sequence="2" value="option_year"/>
+                <element inactive_on_update="false" label="Base Year" sequence="1" value="base_year"/>
+            </choice>
+        </element>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Start Date" name="start_date" type="glide_date"/>
+        <index name="index" unique="true">
+            <element name="proposal"/>
+            <element name="period_sequence"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="71ff3d471dd846e293729b94eba415fc" label="Proposal" name="x_942105_costima_0_proposal" type="collection">
+        <element label="Option Year Count" name="option_year_count" type="integer"/>
+        <element label="Contract Type" mandatory="true" name="contract_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="T&amp;M" sequence="2" value="tm"/>
+                <element inactive_on_update="false" label="FFP" sequence="3" value="ffp"/>
+                <element inactive_on_update="false" label="CPFF" sequence="1" value="cpff"/>
+            </choice>
+        </element>
+        <element display="true" label="Proposal Name" mandatory="true" max_length="255" name="proposal_name" type="string"/>
+        <element default="USD" label="Currency Code" name="currency_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canadian Dollar" sequence="4" value="CAD"/>
+                <element inactive_on_update="false" label="Euro" sequence="2" value="EUR"/>
+                <element inactive_on_update="false" label="Australian Dollar" sequence="5" value="AUD"/>
+                <element inactive_on_update="false" label="Japanese Yen" sequence="6" value="JPY"/>
+                <element inactive_on_update="false" label="US Dollar" sequence="1" value="USD"/>
+                <element inactive_on_update="false" label="British Pound" sequence="3" value="GBP"/>
+            </choice>
+        </element>
+        <element label="Number" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Prepared Date" name="prepared_date" type="glide_date"/>
+        <element default="javascript:gs.getUserID()" label="Prepared By" name="prepared_by" reference="sys_user" type="reference"/>
+        <element label="Customer Name" max_length="255" name="customer_name" type="string"/>
+        <element default="draft" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Review" sequence="2" value="in_review"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="4" value="submitted"/>
+                <element inactive_on_update="false" label="Archived" sequence="5" value="archived"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+            </choice>
+        </element>
+        <element label="Solicitation Number" max_length="100" name="solicitation_number" type="string"/>
+        <index name="index">
+            <element name="prepared_by"/>
+        </index>
+    </element>
+</database>
