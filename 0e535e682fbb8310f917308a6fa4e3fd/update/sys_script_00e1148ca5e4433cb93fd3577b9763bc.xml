@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_942105_costima_0_proposal</collection>
+        <condition/>
+        <description>Blocks reducing option_year_count if periods being removed have child cost data</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_942105_costima_0_proposal">option_year_countVALCHANGES<item endquery="false" field="option_year_count" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate Period Reduction</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    var newCount = parseInt(current.getValue('option_year_count') || '0', 10);
+    var oldCount = parseInt(previous.getValue('option_year_count') || '0', 10);
+
+    // Only check on reduction
+    if (newCount >= oldCount) {
+        return;
+    }
+
+    // Check if any periods with sequence > newCount have child cost data
+    // The cost data table may not exist yet
+    var costTable = 'x_942105_costima_0_cost_line';
+    var costGr = new GlideRecord(costTable);
+    if (!costGr.isValid()) {
+        return;
+    }
+
+    // Get periods that would be removed (sequence > newCount)
+    var periodGr = new GlideRecord('x_942105_costima_0_period');
+    periodGr.addQuery('proposal', current.getUniqueValue());
+    periodGr.addQuery('period_sequence', '>', newCount);
+    periodGr.query();
+
+    while (periodGr.next()) {
+        var costCheck = new GlideRecord(costTable);
+        costCheck.addQuery('period', periodGr.getUniqueValue());
+        costCheck.setLimit(1);
+        costCheck.query();
+
+        if (costCheck.hasNext()) {
+            gs.addErrorMessage(
+                'Cannot reduce option year count. Period "' +
+                periodGr.getValue('period_name') +
+                '" (sequence ' + periodGr.getValue('period_sequence') +
+                ') has associated cost data. Remove the cost data first.'
+            );
+            current.setAbortAction(true);
+            return;
+        }
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 00:26:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00e1148ca5e4433cb93fd3577b9763bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Period Reduction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_update_name>sys_script_00e1148ca5e4433cb93fd3577b9763bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 00:26:20</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=00e1148ca5e4433cb93fd3577b9763bc"/>
+</record_update>

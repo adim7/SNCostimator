@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e48f0d44d9b84dbb81edfb5cd33b52da" label="Subcontract Item" name="x_942105_costima_0_sub_item" type="collection">
+        <element display="true" label="Subcontractor Name" mandatory="true" max_length="200" name="subcontractor_name" type="string"/>
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Product/Service Description" max_length="1000" name="product_service_description" type="string"/>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

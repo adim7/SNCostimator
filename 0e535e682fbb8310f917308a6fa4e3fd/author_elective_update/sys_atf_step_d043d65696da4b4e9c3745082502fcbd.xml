@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="DELETE" apply_defaults="true">
+    <sys_id>d043d65696da4b4e9c3745082502fcbd</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Impersonate</display_name>
+    <notes/>
+    <order>4</order>
+    <step_config>071ee5b253331200040729cac2dc348d</step_config>
+    <table/>
+    <test>13b84503a826434f954a43906ff33c15</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_d043d65696da4b4e9c3745082502fcbd</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="DELETE" query="document_key=d043d65696da4b4e9c3745082502fcbd"/>
+  <sys_variable_value action="DELETE" apply_defaults="true">
+    <sys_id>bf629ff78d3840638d72197ed071612b</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>d043d65696da4b4e9c3745082502fcbd</document_key>
+    <value>{{step['5aaa0d32e0da4ffda43292ca36990167'].user}}</value>
+    <variable>586e2c4253e0220002c6435723dc3415</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_bf629ff78d3840638d72197ed071612b</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="DELETE" query="id=d043d65696da4b4e9c3745082502fcbd"/>
+  <sys_element_mapping action="DELETE" apply_defaults="true">
+    <sys_id>37b5dd5b408e490592831c3230860e0b</sys_id>
+    <field>user</field>
+    <id>d043d65696da4b4e9c3745082502fcbd</id>
+    <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+    <value>{{step['5aaa0d32e0da4ffda43292ca36990167'].user}}</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_37b5dd5b408e490592831c3230860e0b</sys_update_name>
+  </sys_element_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</application>
+        <file_path/>
+        <instance_id>692054dc3bc60b14baf6048aa4e45a51</instance_id>
+        <instance_name>dev428405</instance_name>
+        <name>sys_atf_step_d043d65696da4b4e9c3745082502fcbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d043d65696da4b4e9c3745082502fcbd</sys_id>
+    <sys_scope display_value="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Impersonate</display_name>
+    <notes/>
+    <order>4</order>
+    <step_config>071ee5b253331200040729cac2dc348d</step_config>
+    <table/>
+    <test>13b84503a826434f954a43906ff33c15</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_atf_step_d043d65696da4b4e9c3745082502fcbd</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=d043d65696da4b4e9c3745082502fcbd"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>bf629ff78d3840638d72197ed071612b</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>d043d65696da4b4e9c3745082502fcbd</document_key>
+    <value>{{step['5aaa0d32e0da4ffda43292ca36990167'].user}}</value>
+    <variable>586e2c4253e0220002c6435723dc3415</variable>
+    <order>100</order>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_variable_value_bf629ff78d3840638d72197ed071612b</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=d043d65696da4b4e9c3745082502fcbd"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>37b5dd5b408e490592831c3230860e0b</sys_id>
+    <field>user</field>
+    <id>d043d65696da4b4e9c3745082502fcbd</id>
+    <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+    <value>{{step['5aaa0d32e0da4ffda43292ca36990167'].user}}</value>
+    <sys_scope>0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+    <sys_update_name>sys_element_mapping_37b5dd5b408e490592831c3230860e0b</sys_update_name>
+  </sys_element_mapping>
+</record_update>]]></payload>
+        <payload_hash>-772188153</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>c138d0992fb7c710f917308a6fa4e322</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 22:06:42</sys_created_on>
+        <sys_id>85681c992fb7c710f917308a6fa4e351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1134134e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 22:06:42</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>45681c9901b7c7105fbe7ef60c4eef50</update_guid>
+        <update_guid_history>45681c9901b7c7105fbe7ef60c4eef50:-772188153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:02:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>601fabac7d324487a03a9d79089fd6e9</sys_id>
+        <sys_metadata>d043d65696da4b4e9c3745082502fcbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_scope_delete display_value="">c252613a51534ed49aa5e3feef10ad10</sys_scope_delete>
+        <sys_update_name>sys_atf_step_d043d65696da4b4e9c3745082502fcbd</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_d043d65696da4b4e9c3745082502fcbd">85681c992fb7c710f917308a6fa4e351</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:02:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

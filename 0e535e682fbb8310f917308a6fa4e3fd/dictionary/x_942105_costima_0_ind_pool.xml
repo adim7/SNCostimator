@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e14c407bbcb4233a0436ecb5385e06d" label="Indirect Cost Pool" name="x_942105_costima_0_ind_pool" type="collection">
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element display="true" label="Pool Name" mandatory="true" max_length="200" name="pool_name" type="string"/>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element dependent="pool_category" label="Applies to Base" mandatory="true" name="applies_to_base" type="choice">
+            <choice>
+                <element dependent_value="labor_burden" inactive_on_update="false" label="Total Direct Labor" sequence="1" value="total_direct_labor"/>
+                <element dependent_value="material_burden" inactive_on_update="false" label="Total Direct Material" sequence="2" value="total_direct_material"/>
+                <element dependent_value="subcontract_burden" inactive_on_update="false" label="Total Subcontract" sequence="3" value="total_subcontract"/>
+            </choice>
+        </element>
+        <element label="Pool Category" mandatory="true" name="pool_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Subcontract Burden" sequence="3" value="subcontract_burden"/>
+                <element inactive_on_update="false" label="Material Burden" sequence="2" value="material_burden"/>
+                <element inactive_on_update="false" label="Labor Burden" sequence="1" value="labor_burden"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_942105_costima_0.analyst" name="x_942105_costima_0.analyst">6568a111059c4484bc87de8a0a460e06</contains>
+        <role display_value="x_942105_costima_0.admin" name="x_942105_costima_0.admin">4188c8456c1943baa0923c8ad4a21af0</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 00:10:50</sys_created_on>
+        <sys_id>288aaaca87cb46b2a0ceeb827c9b7bf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_942105_costima_0.analyst.x_942105_costima_0.admin</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_update_name>sys_user_role_contains_288aaaca87cb46b2a0ceeb827c9b7bf6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 00:10:50</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

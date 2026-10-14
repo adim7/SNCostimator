@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8042a3b6a2404470af14b04c0e6ede22" label="Labor Category" name="x_942105_costima_0_labor_cat" type="collection">
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element display="true" label="Category Title" mandatory="true" max_length="200" name="category_title" type="string"/>
+        <element label="Labor Type" name="labor_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indirect" sequence="2" value="indirect"/>
+                <element inactive_on_update="false" label="Consultant" sequence="4" value="consultant"/>
+                <element inactive_on_update="false" label="Direct" sequence="1" value="direct"/>
+                <element inactive_on_update="false" label="Subcontract" sequence="3" value="subcontract"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

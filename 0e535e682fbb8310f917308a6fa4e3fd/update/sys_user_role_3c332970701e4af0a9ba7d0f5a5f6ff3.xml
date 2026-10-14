@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Contracts management role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>1o2yZiVlxWaWls6lJ1rlDA1ZBGzCmdh25langHxicio=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_942105_costima_0.contracts</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>contracts</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 00:10:45</sys_created_on>
+        <sys_id>3c332970701e4af0a9ba7d0f5a5f6ff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_942105_costima_0.contracts</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_update_name>sys_user_role_3c332970701e4af0a9ba7d0f5a5f6ff3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 00:10:45</sys_updated_on>
+    </sys_user_role>
+</record_update>

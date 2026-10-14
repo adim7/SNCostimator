@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="applies_to_base" table="x_942105_costima_0_ind_pool" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>applies_to_base</element>
+            <name>x_942105_costima_0_ind_pool</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 01:06:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>applies_to_base</sys_name>
+            <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+            <sys_update_name>sys_choice_x_942105_costima_0_ind_pool_applies_to_base</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 01:06:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>labor_burden</dependent_value>
+            <element>applies_to_base</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Total Direct Labor</label>
+            <language>en</language>
+            <name>x_942105_costima_0_ind_pool</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:14</sys_updated_on>
+            <value>total_direct_labor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>material_burden</dependent_value>
+            <element>applies_to_base</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Total Direct Material</label>
+            <language>en</language>
+            <name>x_942105_costima_0_ind_pool</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:14</sys_updated_on>
+            <value>total_direct_material</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>subcontract_burden</dependent_value>
+            <element>applies_to_base</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Total Subcontract</label>
+            <language>en</language>
+            <name>x_942105_costima_0_ind_pool</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-12 16:05:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 16:05:14</sys_updated_on>
+            <value>total_subcontract</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

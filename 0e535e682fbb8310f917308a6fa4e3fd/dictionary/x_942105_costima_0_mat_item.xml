@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="62f7c728bf694814ac002c3dcf85de85" label="Material Item" name="x_942105_costima_0_mat_item" type="collection">
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element display="true" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

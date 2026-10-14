@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="80136bb0304a4689b716a6335ebce9f0" label="Direct Labor Line" name="x_942105_costima_0_dir_labor" type="collection">
+        <element attributes="scale=2" default="0" label="Rate" name="rate" type="decimal"/>
+        <element label="Labor Category" mandatory="true" name="labor_category" reference="x_942105_costima_0_labor_cat" reference_cascade_rule="cascade" type="reference"/>
+        <element attributes="scale=2" default="0" label="Hours" name="hours" type="decimal"/>
+        <element label="Period" mandatory="true" name="period" reference="x_942105_costima_0_period" reference_cascade_rule="cascade" type="reference"/>
+        <element attributes="scale=2" label="Cost" name="cost" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <index name="index" unique="true">
+            <element name="labor_category"/>
+            <element name="period"/>
+        </index>
+        <index name="index2">
+            <element name="period"/>
+        </index>
+    </element>
+</database>

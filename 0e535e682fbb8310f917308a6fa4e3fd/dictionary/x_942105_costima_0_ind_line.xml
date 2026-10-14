@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dd3de453dfa34910b522425071d90026" label="Indirect Cost Line" name="x_942105_costima_0_ind_line" type="collection">
+        <element attributes="scale=4" default="0" label="Rate" name="rate" type="decimal"/>
+        <element attributes="scale=2" label="Cost" name="cost" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Indirect Pool" mandatory="true" name="indirect_pool" reference="x_942105_costima_0_ind_pool" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Period" mandatory="true" name="period" reference="x_942105_costima_0_period" reference_cascade_rule="cascade" type="reference"/>
+        <element attributes="scale=2" default="0" label="Base Amount" name="base_amount" type="decimal"/>
+        <index name="index">
+            <element name="indirect_pool"/>
+        </index>
+        <index name="index2">
+            <element name="period"/>
+        </index>
+    </element>
+</database>

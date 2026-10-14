@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Application administrator role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>tI3g5543iCu3Bz26Z7yn7K215ARHAmmQD7Me2GMJD00=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_942105_costima_0.admin</name>
+        <scoped_admin>true</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 00:10:45</sys_created_on>
+        <sys_id>4188c8456c1943baa0923c8ad4a21af0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_942105_costima_0.admin</sys_name>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_update_name>sys_user_role_4188c8456c1943baa0923c8ad4a21af0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 00:10:45</sys_updated_on>
+    </sys_user_role>
+</record_update>

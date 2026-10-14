@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9dc4d0382b514b0bb7a224b922ba116b" label="T&amp;M Rate Card" name="x_942105_costima_0_tm_rate" type="collection">
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element label="Hourly Rate" name="hourly_rate" type="decimal"/>
+        <element display="true" label="Rate Description" mandatory="true" max_length="200" name="rate_description" type="string"/>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

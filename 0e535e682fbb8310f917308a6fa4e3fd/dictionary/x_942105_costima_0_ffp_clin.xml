@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="53110a5cce9e4201ab9e83d8a8043899" label="FFP CLIN" name="x_942105_costima_0_ffp_clin" type="collection">
+        <element display="true" label="CLIN Number" mandatory="true" max_length="50" name="clin_number" type="string"/>
+        <element default="0" label="Display Order" name="display_order" type="integer"/>
+        <element label="Fixed Price" name="fixed_price" type="decimal"/>
+        <element label="Proposal" mandatory="true" name="proposal" reference="x_942105_costima_0_proposal" reference_cascade_rule="cascade" type="reference"/>
+        <element label="CLIN Description" max_length="500" name="clin_description" type="string"/>
+        <index name="index">
+            <element name="proposal"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="48d3a35bd67c4383bd7b5ffe32755dac" label="Direct Material Line" name="x_942105_costima_0_dir_mat" type="collection">
+        <element attributes="scale=2" default="0" label="Unit Cost" name="unit_cost" type="decimal"/>
+        <element attributes="scale=2" default="0" label="Quantity" name="quantity" type="decimal"/>
+        <element label="Period" mandatory="true" name="period" reference="x_942105_costima_0_period" reference_cascade_rule="cascade" type="reference"/>
+        <element attributes="scale=2" label="Cost" name="cost" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Material Item" mandatory="true" name="material_item" reference="x_942105_costima_0_mat_item" reference_cascade_rule="cascade" type="reference"/>
+        <index name="index" unique="true">
+            <element name="material_item"/>
+            <element name="period"/>
+        </index>
+        <index name="index2">
+            <element name="period"/>
+        </index>
+    </element>
+</database>

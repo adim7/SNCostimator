@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_942105_costima_0_proposal</collection>
+        <condition/>
+        <description>Blocks contract_type changes when type-specific cost data exists. Admin role can override with warning.</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_942105_costima_0_proposal">contract_typeVALCHANGES<item endquery="false" field="contract_type" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Lock Contract Type</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    var newType = current.getValue('contract_type');
+    var oldType = previous.getValue('contract_type');
+    
+    if (newType === oldType) {
+        return;
+    }
+    
+    // Map contract types to their type-specific tables
+    var typeTableMap = {
+        'cpff': 'x_942105_costima_0_cpff_fee',
+        'tm': 'x_942105_costima_0_tm_rate',
+        'ffp': 'x_942105_costima_0_ffp_clin'
+    };
+    
+    var typeLabels = {
+        'cpff': 'CPFF',
+        'tm': 'T&M',
+        'ffp': 'FFP'
+    };
+    
+    var proposalId = current.getUniqueValue();
+    var orphanedData = [];
+    
+    // Check ALL type-specific tables for data tied to this proposal
+    for (var type in typeTableMap) {
+        var tableName = typeTableMap[type];
+        var gr = new GlideRecord(tableName);
+        if (gr.isValid()) {
+            gr.addQuery('proposal', proposalId);
+            gr.query();
+            var count = gr.getRowCount();
+            if (count > 0) {
+                orphanedData.push(typeLabels[type] + ' (' + count + ' record' + (count > 1 ? 's' : '') + ' in ' + tableName + ')');
+            }
+        }
+    }
+    
+    if (orphanedData.length === 0) {
+        return; // No data to protect
+    }
+    
+    // Check if user has admin role
+    if (gs.hasRole('x_942105_costima_0.admin')) {
+        // Admin override — allow but warn
+        gs.addInfoMessage(
+            'WARNING: Changing contract type from ' + typeLabels[oldType] + ' to ' + typeLabels[newType] +
+            '. The following data will become orphaned: ' + orphanedData.join('; ') +
+            '. Review and clean up affected records.'
+        );
+        return; // Allow the change
+    }
+    
+    // Non-admin — block the change
+    gs.addErrorMessage(
+        'Cannot change contract type from ' + typeLabels[oldType] + ' to ' + typeLabels[newType] +
+        '. Existing cost data would become orphaned: ' + orphanedData.join('; ') +
+        '. Contact a Costimator administrator to override.'
+    );
+    current.setAbortAction(true);
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 22:31:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d66334d1b0d4653a6dda72750105ca8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lock Contract Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Costimator" source="x_942105_costima_0">0e535e682fbb8310f917308a6fa4e3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Costimator">0e535e682fbb8310f917308a6fa4e3fd</sys_scope>
+        <sys_update_name>sys_script_9d66334d1b0d4653a6dda72750105ca8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 22:31:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d66334d1b0d4653a6dda72750105ca8"/>
+</record_update>
