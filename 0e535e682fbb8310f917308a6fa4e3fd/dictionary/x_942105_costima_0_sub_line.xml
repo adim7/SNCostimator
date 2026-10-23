@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9663a8d106554a8ebb1812cec695e3f5" label="Subcontract Line" name="x_942105_costima_0_sub_line" type="collection">
         <element attributes="scale=2" default="0" label="Cost" name="cost" type="decimal"/>
-        <element label="Period" mandatory="true" name="period" reference="x_942105_costima_0_period" reference_cascade_rule="cascade" type="reference"/>
-        <element label="Subcontract Item" mandatory="true" name="subcontract_item" reference="x_942105_costima_0_sub_item" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Period" mandatory="true" max_length="0" name="period" reference="x_942105_costima_0_period" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Subcontract Item" mandatory="true" max_length="0" name="subcontract_item" reference="x_942105_costima_0_sub_item" reference_cascade_rule="cascade" type="reference"/>
         <index name="index">
             <element name="period"/>
         </index>
